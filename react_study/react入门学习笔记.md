@@ -1,5 +1,7 @@
+# react入门学习笔记
 <!-- TOC -->
 
+- [react入门学习笔记](#react入门学习笔记)
 - [HTML 模板](#html-模板)
     - [hello react](#hello-react)
 - [ReactDOM.render()](#reactdomrender)
@@ -25,7 +27,7 @@
 
 <!-- /TOC -->
 
-# 1. HTML 模板
+# HTML 模板
 使用 React 的网页源码，结构大致如下。
 ``` javascript
 <!DOCTYPE html>
@@ -53,7 +55,7 @@ $ babel src --out-dir build
 ```
 上面命令可以将 src 子目录的 js 文件进行语法转换，转码后的文件全部放在 build 子目录。
 
-## 1.1. hello react
+## hello react
 
 ``` html
 <!DOCTYPE html>
@@ -76,7 +78,7 @@ $ babel src --out-dir build
 </html>
 ```
 
-# 2. ReactDOM.render()
+# ReactDOM.render()
 ReactDOM.render 是 React 的最基本方法，
 **用于将模板转为 HTML 语言，并插入指定的 DOM 节点,**
 你可以理解为ReactDOM.render(str,dom)，
@@ -89,11 +91,11 @@ ReactDOM.render(
 );
 ```
 
-# 3. 初步认识jsx语法
+# 初步认识jsx语法
 
 jsx语法是可以允许同时js与html代码混写的，html代码不需要加双引号，直接使用的。
 
-## 3.1. 解析规则：
+## 解析规则：
 **遇到以 < 开头，就用 HTML 规则解析
 遇到以 { 开头，就用 JavaScript 规则解析**
 
@@ -112,7 +114,7 @@ ReactDOM.render(
 );
 ```
 
-## 3.2. jsx与html的变量
+## jsx与html的变量
 **允许直接在jsx中的html标签中利用{}插入js变量。**
 如果这个变量是一个数组，则会展开这个数组的所有成员
 
@@ -127,7 +129,7 @@ ReactDOM.render(
 );
 ```
 
-## 3.3. ps：补充学习js数组函数map
+## ps：补充学习js数组函数map
 
 **map() 方法返回一个新数组，新数组中的元素为原始数组元素顺序调用函数处理后的值。**
 **注意：** map() 不会对空数组进行检测。
@@ -148,9 +150,9 @@ function myFunction() {
 map的特性
 names 数组 name 元素 index 下标
 
-# 4. 自建组件component
+# 自建组件component
 
-## 4.1. 创建单标签：
+## 创建单标签：
 React可以使用**React.createClass 将代码封装成组件**（component），然后像插入普通 HTML 标签一样，在网页中插入这个组件。
 ``` js
 var HelloMessage = React.createClass({
@@ -186,7 +188,7 @@ var HelloMessage = React.createClass({
 1.**组件的属性可以在组件类的 this.props** 对象上获取，比如 name 属性就可以通过 this.props.name 读取
 2.添加组件属性，有一个地方需要注意，就是 class 属性需要写成 className ，for 属性需要写成 htmlFor ，这是因为 class 和 for 是 JavaScript 的保留字。
 
-## 4.2. 创建双标签：
+## 创建双标签：
 
 ``` js
 <body>
@@ -220,9 +222,9 @@ var HelloMessage = React.createClass({
  class NotesList extends **React.Component**可以用来创建双标签
  
 
-# 5. render的三种写法
+# render的三种写法
 
-## 5.1. 参数法：
+## 参数法：
 ``` js
 ReactDOM.render(
   <h1>Hello, world!</h1>,
@@ -231,7 +233,7 @@ ReactDOM.render(
 ```
 
 
-## 5.2. 返回函数法
+## 返回函数法
 ``` js
 var HelloMessage = React.createClass({
   render: function() {
@@ -245,7 +247,7 @@ var HelloMessage = React.createClass({
 ```
 
 
-## 5.3. 自变函数法
+## 自变函数法
 ``` js
   class NotesList extends React.Component {
         render() {
@@ -262,9 +264,9 @@ var HelloMessage = React.createClass({
       }
 ```
 
-# 6. this.props
+# this.props
 
-## 6.1. 获取属性
+## 获取属性
 ``` js
 **组件的属性可以在组件类的 this.props 对象上获取**，比如 name 属性就可以通过 this.props.name 读取
 
@@ -282,7 +284,7 @@ ReactDOM.render(
 
 
 
-## 6.2. 获取子元素
+## 获取子元素
 ``` js
 this.props.children，它表示组件的所有子节点（使用前和使用后的加起来）
 
@@ -318,9 +320,9 @@ ReactDOM.render(
 React 提供一个工具方法 React.Children 来处理 this.props.children 。我们可以用 **React.Children.map 来遍历子节点，而不用担心 this.props.children 的数据类型是 undefined 还是 object**
 
 
-# 7. 约束组件的属性
+# 约束组件的属性
 
-## 7.1. PropTypes设置属性要求
+## PropTypes设置属性要求
 有时，我们需要一种机制，验证别人使用组件时，提供的参数是否符合要求。
 
 **组件类的PropTypes属性，就是用来验证组件实例的属性是否符合要求**
@@ -352,7 +354,7 @@ Warning: Failed propType: Invalid prop `title` of type `number` supplied to `MyT
 
 
 
-## 7.2. getDefaultProps 设置属性默认值
+## getDefaultProps 设置属性默认值
 
 **getDefaultProps 方法可以用来设置组件属性的默认值。**
 ``` js
@@ -374,14 +376,15 @@ ReactDOM.render(
 );
 ```
 
-# 8. 虚拟节点
+# 虚拟节点
 
 组件并不是真实的 DOM 节点，而是存在于内存之中的一种数据结构，叫做虚拟 DOM （virtual DOM）。只有当它插入文档以后，才会变成真实的 DOM 。根据 React 的设计，所有的 DOM 变动，都先在虚拟 DOM 上发生，然后再将实际发生变动的部分，反映在真实 DOM上，这种算法叫做 DOM diff ，它可以极大提高网页的性能表现。
 
-# 9. 获取组件的真实节点
+# 获取组件的真实节点
 
 有时需要从组件获取真实 DOM 的节点，这时就要用到**ref** 属性
 
+``` js
 var MyComponent = React.createClass({
   handleClick: function() {
     this.refs.myTextInput.focus();
@@ -401,7 +404,7 @@ ReactDOM.render(
   document.getElementById('example')
 );
 
-
+```
 
 **先在自定义组件里面设置ref 和 事件，然后再在handleclick里面完善事件，利用ref**
 
