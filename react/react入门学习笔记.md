@@ -24,6 +24,7 @@
     - [getDefaultProps 设置属性默认值](#getdefaultprops-设置属性默认值)
 - [虚拟节点](#虚拟节点)
 - [获取组件的真实节点](#获取组件的真实节点)
+- [this.state](#thisstate)
 
 <!-- /TOC -->
 
@@ -415,3 +416,5 @@ ref相当于一个只有出发hadleclike以后才生效的id
 
 
 React 组件支持很多事件，除了 Click 事件以外，还有 KeyDown 、Copy、Scroll 等，完整的事件清单请查看官方文档。
+
+# this.state

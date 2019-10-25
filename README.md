@@ -17,35 +17,41 @@
 
 ## 笔记导航
 
-### React
-[React入门学习笔记](./react_study/react入门学习笔记.md)
+### HTML
+- [表单标签](./html/表单.md)
 
-### PHP
-[php入门学习笔记]()
-[php案例实战]()
-
-### 小程序
-[小程序入门学习笔记]()
-[小程序案例实战]()
-[小程序轮子仓库]()
-
-### HTML+CSS+JavaScript
-[HTML]()
-[CSS]()
-[JavaScript]()
-
-### Mysql
-[Mysql基础知识](./markdown入门/md语法.md)
-
-### Puppeteer
-[Puppeteer入门]()
-[Puppeteer爬取文章运营数据]()
-
-### 服务器与搭建网站
-[配置服务器搭建网站踩坑指南]()
+### Vue
+- [vue实例](./vue/vue.md)
+- [vue指令](./vue/vue指令.md)
 
 ## Markdown
-[markdown语法]()
+- [markdown语法](./markdown/md语法.md)
+
+
+
+## 后续更新
+
+### 小程序
+- [小程序入门学习笔记]()
+- [小程序案例实战]()
+- [小程序轮子仓库]()
+
+### Puppeteer
+- [Puppeteer入门]()
+- [Puppeteer爬取文章运营数据]()
+
+### PHP
+- [php入门学习笔记]()
+- [php案例实战]()
+
+### React
+- [React入门学习笔记](./react/react入门学习笔记.md)
 
 ## Git
-[git基本操作]()
+- [git基本操作]()
+
+### Mysql
+- [Mysql基础知识]()
+
+### 服务器与搭建网站
+- [配置服务器搭建网站踩坑指南]()

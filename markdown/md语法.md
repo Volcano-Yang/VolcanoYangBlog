@@ -52,7 +52,7 @@
 ```
 
 ### 1.1.7. 超链接
-[react笔记](../react_study/react入门学习笔记.md)
+[react笔记](../react/react入门学习笔记.md)
 [内容] （链接）
 
 ### 1.1.8. 导航
