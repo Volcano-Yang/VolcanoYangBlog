@@ -12,7 +12,7 @@
 
 ## 1.1. vue实例的创建
 
-![create-vue](/assets/create-vue.png)
+![create-vue](../assets/create-vue.png)
 
 
 ## 1.2. vue实例的属性
