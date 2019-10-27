@@ -22,7 +22,7 @@
 
 ### Javascrpt
 - [js的字符串函数](./JavaScript/js的字符串函数.md)
-- [js高频正则表达式用法](./JavaScript/js中常用的正则表达式用法.md)
+- [js的数组函数](./JavaScript/js的数组函数.md)
 
 
 ### Vue
