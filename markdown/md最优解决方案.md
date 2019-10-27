@@ -24,7 +24,3 @@
 | Excel to Markdown table   | 支持在 excel 中复制表格到 md                                         |
 | Markdown Image Size       | 支持 md 的设置图片大小的语法                                         |
 | markdown image paste      | 支持复制图片文件后直接粘贴到 md                                      |
-
-试试 | 会不会 | 格式出错
------|--------|-----
-1    | 2      | 3
