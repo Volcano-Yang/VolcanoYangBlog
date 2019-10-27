@@ -21,11 +21,16 @@
 - [表单标签详解](./html/表单.md)
 
 ### Javascrpt
-- [正则表达式](./JavaScript/正则表单式.md)
+- [js的字符串函数](./JavaScript/js的字符串函数.md)
+- [js高频正则表达式用法](./JavaScript/js中常用的正则表达式用法.md)
+
 
 ### Vue
 - [vue实例](./vue/vue.md)
 - [vue指令](./vue/vue指令.md)
+
+## Regular expression
+- [正则表达式语法理解](./正则表达式/正则表达式语法理解.md)
 
 ## Markdown
 - [markdown语法](./markdown/md语法.md)
