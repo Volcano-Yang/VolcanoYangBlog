@@ -20,10 +20,12 @@
 ### HTML
 - [表单标签详解](./html/表单.md)
 
+### CSS
+- [三种居中布局](./css/layout/center.md)
+
 ### Javascrpt
 - [js的字符串函数](./JavaScript/js的字符串函数.md)
 - [js的数组函数](./JavaScript/js的数组函数.md)
-
 
 ### Vue
 - [vue实例](./vue/vue实例.md)
