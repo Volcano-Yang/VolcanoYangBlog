@@ -38,6 +38,9 @@
 - [markdown语法](./markdown/md语法.md)
 - [markdown最优使用方案](./markdown/md最优解决方案.md)
 
+## Git
+- [Git的菜鸡用法](./git/git的基本操作.md)
+
 
 ## 后续更新
 
