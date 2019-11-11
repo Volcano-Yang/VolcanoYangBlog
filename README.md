@@ -57,14 +57,11 @@
 - [php入门学习笔记]()
 - [php案例实战]()
 
-### React
-- [React入门学习笔记](./react/react入门学习笔记.md)
-
-## Git
-- [git基本操作]()
-
 ### Mysql
 - [Mysql基础知识]()
 
 ### 服务器与搭建网站
 - [配置服务器搭建网站踩坑指南]()
+
+### React
+- [React入门学习笔记](./react/react入门学习笔记.md)

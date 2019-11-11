@@ -20,7 +20,7 @@
 		- [height:100%补课](#height100补课)
 	- [absolute&top&transfrom](#absolutetoptransfrom)
 		- [优缺点](#优缺点-3)
-- [水平居中布局](#水平居中布局-1)
+- [水平垂直居中布局](#水平垂直居中布局)
 	- [vertical-align&text-align](#vertical-aligntext-align)
 		- [优缺点：](#优缺点-1)
 	- [absolute&transfrom](#absolutetransfrom)
@@ -305,7 +305,7 @@ parent是否脱离文档流，不影响子级元素的水平居中效果；但�
 </html>
 ```
 
-# 水平居中布局
+# 水平垂直居中布局
 
 ## vertical-align&text-align
 
