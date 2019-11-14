@@ -34,6 +34,9 @@
 ## Regular expression
 - [正则表达式语法理解](./正则表达式/正则表达式语法理解.md)
 
+## Mysql
+- [前端程序员需要知道的mysql知识](./mysql/mysql基本知识.md)
+
 ## Markdown
 - [markdown语法](./markdown/md语法.md)
 - [markdown最优使用方案](./markdown/md最优解决方案.md)
@@ -56,9 +59,6 @@
 ### PHP
 - [php入门学习笔记]()
 - [php案例实战]()
-
-### Mysql
-- [Mysql基础知识]()
 
 ### 服务器与搭建网站
 - [配置服务器搭建网站踩坑指南]()
