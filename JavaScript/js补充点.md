@@ -76,3 +76,9 @@ print(123,'abc');
 ```
 
 
+=== 值相同且在内存中的位置也要相同
+
+
+
+if("textContent" in obj)
+
