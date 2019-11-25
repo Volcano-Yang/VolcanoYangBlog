@@ -24,6 +24,9 @@
 - [三种居中布局](./css/layout/center.md)
 
 ### Javascrpt
+- [不可不知的函数知识](./JavaScript/key/不可不知的函数知识.md)
+- [不可不知的对象知识](./JavaScript/key/不可不知的对象知识.md) 
+- [必须要会的dom操作](./JavaScript/key/必须要会的dom操作.md)  
 - [js的字符串函数](./JavaScript/js的字符串函数.md)
 - [js的数组函数](./JavaScript/js的数组函数.md)
 
@@ -65,3 +68,6 @@
 
 ### React
 - [React入门学习笔记](./react/react入门学习笔记.md)
+
+
+[blogLink](https://volcano-yang.github.io/VolcanoYangBlog/)
