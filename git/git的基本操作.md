@@ -46,4 +46,8 @@ b3fa4c3 HEAD@{2}: commit: copy from newpbft, first init
 git reset --hard 40a9a83
 ```
 
+### 配置git账号和用户名
 
+- 输入你的名字：$ git config --global user.name "myname"
+
+- 输入你的email了：$ git config --global user.email "myemail@email.com"
