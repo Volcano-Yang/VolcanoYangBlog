@@ -26,7 +26,8 @@
 ### Javascrpt
 - [不可不知的函数知识](./JavaScript/key/不可不知的函数知识.md)
 - [不可不知的对象知识](./JavaScript/key/不可不知的对象知识.md) 
-- [必须要会的dom操作](./JavaScript/key/必须要会的dom操作.md)  
+- [必须要会的dom操作](./JavaScript/key/必须要会的dom操作.md) 
+- [一文带你了解BOM](./JavaScript/key/一文带你了解BOM.md) 
 - [js的字符串函数](./JavaScript/js的字符串函数.md)
 - [js的数组函数](./JavaScript/js的数组函数.md)
 
