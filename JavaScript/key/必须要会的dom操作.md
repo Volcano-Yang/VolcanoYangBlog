@@ -239,3 +239,122 @@ oDiv.className = "box";
 </script>
 </body>
 ```
+
+## DOM事件
+
+### 如何给元素绑定事件?
+
+在JavaScript中所有的HTML标签都可以添加事件
+
+元素.事件名称 = function(){};
+
+当对应事件被触发时候就会自动执行function中的代码
+
+
+``` js
+<body>
+<button>我是按钮</button>
+<a href="http://www.it666.com">我是a标签</a>
+<script>
+    let oBtn = document.querySelector("button");
+    oBtn.onclick = function () {
+        alert("按钮被点击了");
+    }
+</script>
+```
+
+## 事件定时器
+
+在JavaScript中有两种定时器, 一种是重复执行的定时器, 一种是只执行一次的定时器
+
+### 只执行一次的定时器
+
+使用windows的setTimeout方法
+
+window.setTimeout(函数,触发时间);
+
+``` js
+ window.setTimeout(()=>{console.log('听说你是一次定时器')},1000);
+```
+
+清楚方法：clearTimeout(元素选择器);
+
+### 重复执行的定时器
+
+使用windows的setInterval方法
+
+清楚方法：clearInterval(元素选择器);
+
+```js
+window.setInterval(()=>{console.log("听说你是重复执行定时器"),1000});
+```
+
+#### 带参执行
+
+``` js
+
+setInterval(
+  function(a) {
+    console.log(a); //3
+  },
+  1000,
+  3
+);
+ 
+setInterval(
+    function(a) {
+      console.log(a); //{a:1}
+    },
+    1000,
+    {a:1}
+  );
+ 
+setInterval(
+    function(a) {
+      console.log(a); //[1]
+    },
+    1000,
+    [1]
+  );
+```
+
+
+> 注意interval很难做到返回一个值，又拿这个值去做下一次任务，这种还是交给递归去做吧。
+
+
+实例：
+
+``` js
+<body>
+<button id="start">开始</button>
+<button id="close">结束</button>
+<script>
+    
+    let startBtn = document.querySelector("#start");
+    let id = null;
+    startBtn.onclick = function () {
+        id = setInterval(function () {
+            console.log("随便写点");
+        }, 1000);
+    }
+    let closeBtn = document.querySelector("#close");
+    closeBtn.onclick = function () {
+        clearInterval(id);
+    }
+
+    /*
+    let startBtn = document.querySelector("#start");
+    let closeBtn = document.querySelector("#close");
+    let id = null;
+    startBtn.onclick = function () {
+        id = window.setTimeout(function () {
+            console.log("随便写点");
+        }, 5000);
+    }
+    closeBtn.onclick = function () {
+        clearTimeout(id);
+    }
+    */
+</script>
+</body>
+```
