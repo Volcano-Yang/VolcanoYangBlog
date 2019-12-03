@@ -1,11 +1,4 @@
-<!-- TOC -->
 
-- [vue指令](#vue指令)
-  - [v-on](#v-on)
-  - [v-model](#v-model)
-  - [v-bind](#v-bind)
-
-<!-- /TOC -->
 
 # vue指令
 

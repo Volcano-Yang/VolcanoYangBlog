@@ -32,8 +32,8 @@
 - [js的数组函数](./JavaScript/js的数组函数.md)
 
 ### Vue
-- [vue实例](./vue/vue实例.md)
-- [vue指令](./vue/vue指令.md)
+- [vue入门指南](./vue/vue入门指南.md)
+
 
 ## Regular expression
 - [正则表达式语法理解](./正则表达式/正则表达式语法理解.md)

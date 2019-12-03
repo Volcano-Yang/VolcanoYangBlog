@@ -1,64 +1,45 @@
-**思维导航**
-<!-- TOC -->
-
-- [1. Vue实例](#1-vue实例)
-	- [1.1. vue实例的创建](#11-vue实例的创建)
-	- [1.2. vue实例的属性](#12-vue实例的属性)
-		- [computed](#computed)
-	- [1.3. vue实例的接口方法](#13-vue实例的接口方法)
-
-<!-- /TOC -->
+# 1. Vue简单实例创建
 
 
-# 1. Vue实例
 
-## 1.1. vue实例的创建
+## 1.1. 创建vue的实例
 
-![create-vue](../assets/create-vue.png)
+(1) 创建vue对象
 
+(2)　告诉vue对象它控制的区域
 
-## 1.2. vue实例的属性
-
-* **el：挂载元素**
-* **data：储存数据对象**
-* **methods：储存方法函数**
-* computed: 计算属性
-* props： 组件接收到的props对象
-* refs：引向子组件
-* is：添加一个字符串模板
-
-
-### computed
-
-根据vue中的data数据做一些计算得到新的数据，可以实时更新，也可以像data一样用{{}}绑定展示。
+(3)　告诉vue对象被控制区域的数据是什么
 
 ``` html
-<div id="app">
-  <input type="text" v-model="value">
-  <input type="button" value="发送" v-on:click="send"/>
-  <div>value 的值是：{{ value }}</div>
-  <!-- 引用 count -->
-  <div>字数：{{ count }}</div>
+<div id="app"> 
+  {{ value }}
 </div>
 
 <script>
-var app = new Vue({
+　　 new Vue({
         el: '#app',
-        data: function () {
-            return {value: ''}
-        },
-        methods: {
-            // 省略...
-        },
-        // 这是新增的计算属性
-        computed: {
-            count: function () {
-                return this.value.length
-            }
+        data: {     
+                value: 'hello vue!'
         }
 	})
 </script>
 ```
+
+
+
+## 1.2. vue实例的属性
+
+### 1.2.1. el：挂载元素
+### 1.2.2. data：储存数据对象
+
+创建vue实例已经说过
+
+
+### 1.2.3. methods：储存方法函数
+
+
+
+
 
 
 ## 1.3. vue实例的接口方法
