@@ -69,8 +69,9 @@ console.log(oDivs);
 
 ### 1.2.1. 获取元素内容
 
-1. innerHTML获取的内容包含标签, innerText/textContent获取的内容不包含标签
-2. textContent获取的内容不会去除两端的空格, innerText获取的内容会去除两端的空格
+1. 无论是innerHTML还是innerText都不会获取到所选择元素的本身这个标签
+2. innerHTML获取的内容包含标签, innerText/textContent获取的内容不包含标签
+3. textContent获取的内容不会去除两端的空格, innerText获取的内容会去除两端的空格，所以两者中最常用的是innerText
 
 ``` html
 <div>
@@ -78,15 +79,15 @@ console.log(oDivs);
     <h1>我是标题</h1>
 </div>
 <script>
-   let oDiv = document.querySelector("div");
-   console.log(oDiv.innerHTML);
-   console.log(oDiv.innerText);
-   console.log(oDiv.textContent);
+   let oDiv1 = document.querySelector("div");
+   console.log(oDiv1.innerHTML);
+   console.log(oDiv1.innerText);
+   console.log(oDiv1.textContent);
 
-   let oDiv = document.querySelector("h1");
-   console.log(oDiv.innerHTML);
-   console.log(oDiv.innerText);
-   console.log(oDiv.textContent);
+   let oDiv2 = document.querySelector("h1");
+   console.log(oDiv2.innerHTML);
+   console.log(oDiv2.innerText);
+   console.log(oDiv2.textContent);
 </script>
 
 <!-- 
@@ -99,7 +100,8 @@ console.log(oDivs);
 我是div
 我是标题
 
-我是div
+   我是div
+   我是标题
 
 输出2：
 
@@ -115,16 +117,14 @@ console.log(oDivs);
 
 - 无论通过innerHTML/innerText/textContent设置内容, 新的内容会覆盖原有的内容。
 - 如果通过innerHTML设置数据, 数据中包含标签, 会转换成标签之再添加
-- 如果通过innerText/textContent设置数据, 数据中包含标签, 会转换成标签, 会当做一个字符串直接设置
+- 如果通过innerText设置数据, 数据中包含标签, 会转换成标签, 会当做一个字符串直接设置
 
 ``` html
     let oDiv = document.querySelector("div");
    // oDiv.innerHTML = "123";
    // oDiv.innerText = "456";
-   // oDiv.textContent = "789";
    //  oDiv.innerHTML = "<span>我是span</span>";
    //  oDiv.innerText = "<span>我是span</span>";
-   //  oDiv.textContent = "<span>我是span</span>";
 ```
 
 ## 1.3. 对获取的指定元素的属性操作
@@ -192,7 +192,7 @@ oDiv.style.backgroundColor = "blue";
 
 #### 1.4.2.1. 获取
 
-let style = window.getComputedStyle(oDiv);
+**let style = window.getComputedStyle(oDiv);**
 
 console.log(style.width);
 
@@ -200,7 +200,7 @@ console.log(style.width);
 
 #### 1.4.2.2. 设置
 
-oDiv.className = "box"; 添加已经写好的CSS样式
+**oDiv.className = "box"; 添加已经写好的CSS样式**
 
 ``` js
 let oDiv = document.querySelector("div");
@@ -222,7 +222,7 @@ oDiv.className = "box";
     </style>
 </head>
 <body>
-<div class="box"></div>
+<div></div>
 <script>
     let oDiv = document.querySelector("div");
     oDiv.className = "box";
@@ -235,7 +235,7 @@ oDiv.className = "box";
     console.log(oDiv.style.width);
 
     let style = window.getComputedStyle(oDiv);
-    console.log(style.width);
+    console.log(style);
 </script>
 </body>
 ```
@@ -246,7 +246,7 @@ oDiv.className = "box";
 
 在JavaScript中所有的HTML标签都可以添加事件
 
-元素.事件名称 = function(){};
+**元素对象.事件名称 = function(){};**
 
 当对应事件被触发时候就会自动执行function中的代码
 
@@ -271,7 +271,7 @@ oDiv.className = "box";
 
 使用windows的setTimeout方法
 
-window.setTimeout(函数,触发时间);
+**window.setTimeout(函数,触发时间);**
 
 ``` js
  window.setTimeout(()=>{console.log('听说你是一次定时器')},1000);
@@ -282,6 +282,8 @@ window.setTimeout(函数,触发时间);
 ### 重复执行的定时器
 
 使用windows的setInterval方法
+
+**window.setInterval(函数,触发时间);**
 
 清楚方法：clearInterval(元素选择器);
 
