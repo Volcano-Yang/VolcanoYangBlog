@@ -2,28 +2,28 @@
 <!-- TOC -->
 
 - [水平居中布局](#水平居中布局)
-	- [text-align&inline-block](#text-aligninline-block)
+	- [text-align&amp;inline-block](#text-alignampinline-block)
 		- [优缺点：](#优缺点)
 		- [三种display属性](#三种display属性)
-	- [table|block&margin](#tableblockmargin)
+	- [table|block&amp;margin](#tableblockampmargin)
 		- [优缺点](#优缺点)
 		- [margin补课](#margin补课)
-	- [absolute&left&transform](#absolutelefttransform)
+	- [absolute&amp;left&amp;transform](#absoluteampleftamptransform)
 		- [优缺点](#优缺点-1)
 		- [position补课：](#position补课)
 		- [transfrom补课：](#transfrom补课)
 - [垂直居中布局](#垂直居中布局)
-	- [table-cell&vertical-align](#table-cellvertical-align)
+	- [table-cell&amp;vertical-align](#table-cellampvertical-align)
 		- [优缺点](#优缺点-2)
 		- [display再补课](#display再补课)
 		- [vertical-align补课](#vertical-align补课)
 		- [height:100%补课](#height100补课)
-	- [absolute&top&transfrom](#absolutetoptransfrom)
+	- [absolute&amp;top&amp;transfrom](#absoluteamptopamptransfrom)
 		- [优缺点](#优缺点-3)
 - [水平垂直居中布局](#水平垂直居中布局)
-	- [vertical-align&text-align](#vertical-aligntext-align)
+	- [vertical-align&amp;text-align](#vertical-alignamptext-align)
 		- [优缺点：](#优缺点-1)
-	- [absolute&transfrom](#absolutetransfrom)
+	- [absolute&amp;transfrom](#absoluteamptransfrom)
 		- [优缺点](#优缺点-4)
 
 <!-- /TOC -->
@@ -103,7 +103,7 @@ text-align具有继承性，parent中child的内容也会水平居中，如果�
 margin属性代表外边距：
 - 一个值: 上下左右四个的边距
 - 两个值: 第一个表示上下边距  第二个表示左右边距
-  - 0 auto 表示上下边距为0 左右=边距根据浏览器自动分配
+  - 0 auto 表示上下边距为0 左右边距根据浏览器自动分配
 - 三个值：第一个表示上，第二个表示左右，第三个表示下
 - 四个值：上右下左 
 
@@ -149,7 +149,7 @@ margin属性代表外边距：
 
 ### 优缺点
 
-parent是否脱离文档流，不影响子级元素的水平居中效果；但是transfrom属于css3中的属性，老浏览器不支持。
+parent脱离文档流，不影响子级元素的水平居中效果；但是transfrom属于css3中的属性，老浏览器不支持。
 
 ### position补课：
 
