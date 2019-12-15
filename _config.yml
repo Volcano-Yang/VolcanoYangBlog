@@ -1,11 +1,12 @@
 theme: jekyll-theme-cayman
+baidu_analytics: 863561d2e34aa377ce015672a75b16ef
 
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?863561d2e34aa377ce015672a75b16ef";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+# <script>
+# var _hmt = _hmt || [];
+# (function() {
+#   var hm = document.createElement("script");
+#   hm.src = "https://hm.baidu.com/hm.js?863561d2e34aa377ce015672a75b16ef";
+#   var s = document.getElementsByTagName("script")[0]; 
+#   s.parentNode.insertBefore(hm, s);
+# })();
+# </script>
