@@ -22,6 +22,9 @@
 
 ### CSS
 - [三种居中布局](./css/layout/center.md)
+- [两列布局](./css/layout/two-col.md)
+- [圣杯布局](./css/layout/圣杯布局.md)
+- [flex大法](./css/layout/flex大法学习.md)
 
 ### Javascrpt
 - [不可不知的函数知识](./JavaScript/key/不可不知的函数知识.md)
@@ -34,18 +37,23 @@
 ### Vue
 - [vue入门指南](./vue/vue入门指南.md)
 
-## Regular expression
+### node
+- [了解node](./node/了解node.md)
+- [node的模块化](./node/node的模块化.md)
+
+### Regular expression
 - [正则表达式语法理解](./正则表达式/正则表达式语法理解.md)
 
-## Mysql
+### Mysql
 - [前端程序员需要知道的mysql知识](./mysql/mysql基本知识.md)
 
-## Markdown
+### Markdown
 - [markdown语法](./markdown/md语法.md)
 - [markdown最优使用方案](./markdown/md最优解决方案.md)
 
-## Git
+### Git
 - [Git的菜鸡用法](./git/git的基本操作.md)
+
 
 
 ## 后续更新
