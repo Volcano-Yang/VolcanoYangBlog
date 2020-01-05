@@ -40,6 +40,8 @@
 ### node
 - [了解node](./node/了解node.md)
 - [node的模块化](./node/node的模块化.md)
+- [node的包管理和npm指令](./node/node中的包管理.md)
+- [node的路径和文件操作](./node/node的路径模块和文件操作.md) 
 
 ### Regular expression
 - [正则表达式语法理解](./正则表达式/正则表达式语法理解.md)
