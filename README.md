@@ -15,7 +15,21 @@
 
 * **github pages** 则是让我不再苦于寻找全平台都有的笔记软件，只要把github pages的自适应做好一点，想在什么设备看都可以，要是再加上vpn简直美滋滋
 
-## 笔记导航
+
+---
+
+
+> 不能和那些家庭情况不一样的人比较。要想要改变一个家庭的命运需要三代人的努力，第一代：医农工科 第二代：金融经济 第三代：艺术升华。坚定自己的方向。
+
+## 精选笔记
+
+### css布局
+- [三种居中布局](./css/layout/center.md)
+- [两列布局](./css/layout/two-col.md)
+- [圣杯布局](./css/layout/圣杯布局.md)
+- [flex大法](./css/layout/flex大法学习.md)
+
+## 笔记列表
 
 ### HTML
 - [表单标签详解](./html/表单.md)
@@ -57,27 +71,13 @@
 - [Git的菜鸡用法](./git/git的基本操作.md)
 
 
+---
 
-## 后续更新
-
-### 小程序
-- [小程序入门学习笔记]()
-- [小程序案例实战]()
-- [小程序轮子仓库]()
-
-### Puppeteer
-- [Puppeteer入门]()
-- [Puppeteer爬取文章运营数据]()
-
-### PHP
-- [php入门学习笔记]()
-- [php案例实战]()
-
-### 服务器与搭建网站
-- [配置服务器搭建网站踩坑指南]()
-
-### React
-- [React入门学习笔记](./react/react入门学习笔记.md)
-
+### 杨灿就是杨火山
 
 [blogLink](https://volcano-yang.github.io/VolcanoYangBlog/)
+[github](https://github.com/Volcano-Yang)
+[juejin](https://juejin.im/user/2383396940547821)
+[zhihu](https://www.zhihu.com/people/yang-can-jiu-shi-yang-huo-shan)
+
+
