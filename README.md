@@ -29,6 +29,9 @@
 - [圣杯布局](./css/layout/圣杯布局.md)
 - [flex大法](./css/layout/flex大法学习.md)
 
+### ts学习
+- [简单易懂的ts入门教程](./TS/ts入门笔记.md)
+
 ## 笔记列表
 
 ### HTML
