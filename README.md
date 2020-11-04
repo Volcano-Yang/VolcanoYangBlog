@@ -24,13 +24,26 @@
 ## 精选笔记
 
 ### css布局
+
 - [三种居中布局](./css/layout/center.md)
 - [两列布局](./css/layout/two-col.md)
 - [圣杯布局](./css/layout/圣杯布局.md)
 - [flex大法](./css/layout/flex大法学习.md)
 
-### ts学习
-- [简单易懂的ts入门教程](./TS/ts类型声明和断言.md)
+## ts入门笔记目录：
+[TS入门笔记1——TS的类型声明](https://juejin.im/post/6880488222451826696)
+
+[TS入门笔记2——TS接口进阶详解](https://juejin.im/post/6880488633057411080)
+
+[TS入门笔记3——TS中的函数声明](https://juejin.im/post/6881203740569763853)
+
+[TS入门笔记4——TS的类型断言（解释型类型转换）](https://juejin.im/post/6881205819673837582)
+
+[TS入门笔记5——TS的泛型](https://juejin.im/post/6881207220931919879)
+
+[TS入门笔记6——ts中的声明文件、模块、命名空间](https://juejin.im/post/6881208706948661255)
+
+
 
 ## 笔记列表
 
