@@ -1,6 +1,8 @@
 # 一、pm2
 
 > 文章：https://www.cnblogs.com/chyingp/p/pm2-documentation.html
+>
+> 启动最好用pm2 可以避免终端阻塞和终端关闭后进程也响应关闭 日志监控 崩溃重启等很好用的功能
 
 全局安装，简直不能更简单。
 
