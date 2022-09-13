@@ -145,5 +145,5 @@ graph TD
 > 超越姐姐保佑我学习进步！！
 
 <div align=center>
-<img src="../assets/8dacb745gy1funbpgj868j20qo12r7qy.jpg"  width=100>
+<img src="../../assets/8dacb745gy1funbpgj868j20qo12r7qy.jpg"  width=100>
 </div>

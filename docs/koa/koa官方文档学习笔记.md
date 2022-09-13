@@ -59,15 +59,15 @@ app.use(someMiddleware)
 
 ## 2.中间件执行顺序，洋葱模型
 
-![image-20210131164632617](http://qny.volcanoblog.cn/markdown/image-20210131164632617.png)
+![image-20210131164632617](https://qny.volcanoblog.cn/markdown/image-20210131164632617.png)
 
-![](http://qny.volcanoblog.cn/markdown/image-20210131164723587-20210131164956510.png)
+![](https://qny.volcanoblog.cn/markdown/image-20210131164723587-20210131164956510.png)
 
 `由next将一个中间件分成洋葱模型的两边`
 
 为了保证洋葱模型的正确执行，需要我们在中间函数中加上async和await
 
-![image-20210131164901628](http://qny.volcanoblog.cn/markdown/image-20210131164901628.png)
+![image-20210131164901628](https://qny.volcanoblog.cn/markdown/image-20210131164901628.png)
 
 
 

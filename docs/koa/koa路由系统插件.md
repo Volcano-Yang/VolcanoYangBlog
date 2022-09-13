@@ -4,7 +4,7 @@
 
 > koa本身是一个高级应用框架之下的框架，所以很多东西都是精简的，需要我们自己根据需要引入插件，本身是没有路由系统的。本身要做路由引导，可以简单的做逻辑处理。
 
-![image-20210201102541811](http://qny.volcanoblog.cn/markdown/image-20210201102541811.png)
+![image-20210201102541811](https://qny.volcanoblog.cn/markdown/image-20210201102541811.png)
 
 > 需要返回什么给客户端，直接传给ctx.body就可以，koa自动帮我们做了序列化操作。
 
@@ -90,7 +90,7 @@ router
 >
 > 结果：{ "name": "zj" }
 
-![image-20210208113407464](http://qny.volcanoblog.cn/markdown/image-20210208113407464.png)
+![image-20210208113407464](https://qny.volcanoblog.cn/markdown/image-20210208113407464.png)
 
 ## 五、将api router抽离到单独文件
 
@@ -206,6 +206,6 @@ app.listen(port);
 console.log("程序已经启动，在" + port + "端口监听");
 ```
 
-![a4cfd553a12bf420170925a20ccb50d3_r](http://qny.volcanoblog.cn/markdown/a4cfd553a12bf420170925a20ccb50d3_r.jpg)
+![a4cfd553a12bf420170925a20ccb50d3_r](https://qny.volcanoblog.cn/markdown/a4cfd553a12bf420170925a20ccb50d3_r.jpg)
 
 > 少抱怨，多思考。持续努力，必有收获。

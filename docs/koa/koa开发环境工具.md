@@ -82,7 +82,7 @@ Describing process with id 0 - name oc-server
 
 2. 使用起来很方便，直接用nodemon命令字代替node命令字，启动就可以了。后面如果修改了代码，保存后会自动帮助我们重启。
 
-![image-20210207170507557](http://qny.volcanoblog.cn/markdown/image-20210207170507557.png)
+![image-20210207170507557](https://qny.volcanoblog.cn/markdown/image-20210207170507557.png)
 
 3. 如果你不全局安装一个npm包，你想要启动它，只有两种方法：
 
@@ -93,15 +93,15 @@ Describing process with id 0 - name oc-server
 
 1. 配置vscode启动文件
 
-   ![image-20210207173237839](http://qny.volcanoblog.cn/markdown/image-20210207173237839.png)
+   ![image-20210207173237839](https://qny.volcanoblog.cn/markdown/image-20210207173237839.png)
 
    
 
-   ![image-20210207174329249](http://qny.volcanoblog.cn/markdown/image-20210207174329249.png)
+   ![image-20210207174329249](https://qny.volcanoblog.cn/markdown/image-20210207174329249.png)
 
 2. 在你需要断点的地方打红点，然后按下f5开始启动
 
-   ![image-20210207173323677](http://qny.volcanoblog.cn/markdown/image-20210207173323677.png)
+   ![image-20210207173323677](https://qny.volcanoblog.cn/markdown/image-20210207173323677.png)
 
 
 
@@ -109,11 +109,11 @@ Describing process with id 0 - name oc-server
 
 ### （1）如何既可以断点调试又可以自动重启
 
-![image-20210207174953400](http://qny.volcanoblog.cn/markdown/image-20210207174953400.png)
+![image-20210207174953400](https://qny.volcanoblog.cn/markdown/image-20210207174953400.png)
 
 ### （2）node启动当前文件
 
-![image-20210207174156309](http://qny.volcanoblog.cn/markdown/image-20210207174156309-20210207175127803.png)
+![image-20210207174156309](https://qny.volcanoblog.cn/markdown/image-20210207174156309-20210207175127803.png)
 
 # 四、node环境配置绝对路径拒绝硬编码
 
