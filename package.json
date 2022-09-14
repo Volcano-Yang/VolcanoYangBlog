@@ -1,0 +1,26 @@
+{
+  "name": "volcanoyangblog",
+  "description": "![a4cfd553a12bf420170925a20ccb50d3_r](https://qny.volcanoblog.cn/markdown/a4cfd553a12bf420170925a20ccb50d3_r.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "test": "ts-node play/algorithm/removeDuplicates.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volcano-Yang/VolcanoYangBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volcano-Yang/VolcanoYangBlog/issues"
+  },
+  "homepage": "https://github.com/Volcano-Yang/VolcanoYangBlog#readme"
+}
