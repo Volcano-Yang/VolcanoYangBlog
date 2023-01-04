@@ -1,2 +1,3 @@
 /node_modules
-docs/.vitepress
+/docs/.vitepress/cache
+/.vitepress/cache
