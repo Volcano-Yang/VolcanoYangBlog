@@ -20,10 +20,14 @@ jobs:
     name: deploy
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: pnpm install
+          node-version: '14'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
       - run: yarn docs:build
       - name: Deploy to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2
