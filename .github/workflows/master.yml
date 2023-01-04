@@ -28,11 +28,10 @@ jobs:
           node-version: '14'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: yarn docs:build
+      - run: pnpm run docs:build
       - name: Deploy to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2
         with:
           secretId: ${{ secrets.SECRETID }}
           secretKey: ${{ secrets.SECRETKEY }}
           envId: ${{ secrets.ENVID }}
-          staticSrcPath: docs/.vitepress/dist
