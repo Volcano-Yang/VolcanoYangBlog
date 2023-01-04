@@ -2,7 +2,8 @@ import { defineConfigWithTheme } from "vitepress";
 import type { Config as ThemeConfig } from "@vue/theme";
 
 export default defineConfigWithTheme<ThemeConfig>({
-  description: "杨火山的学习、工作、生活记录📝",
+  title: '编程之旅',
+  description: "用代码改变生活",
   head: [
     [
       "link",
