@@ -9,8 +9,8 @@ export default defineConfigWithTheme<ThemeConfig>({
       "link",
       {
         rel: "alternate icon",
-        href: "https://qnycdn.volcanoblog.cn/web/volcano-favicon.ico",
-        type: "ico",
+        href: "https://qnycdn.volcanoblog.cn/web/volcano-avatar.jpeg",
+        type: 'image/png',
         sizes: "16x16",
       },
     ],
